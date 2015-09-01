@@ -9,7 +9,7 @@ Sample:
 
     import crc
     
-    crccalc = crc.Crc()
+    crccalc = crc()
     crccalc.setCRC8()  # Let's calculate the CRC8 of a value
     crccalc.data = "My Data"
     crccalc.compute()
