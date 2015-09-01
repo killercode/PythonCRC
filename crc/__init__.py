@@ -1,7 +1,7 @@
 __author__ = 'Diogo Alves'
 
 
-class Crc:
+class crc:
 
     order = ""
     polynom = ""
@@ -332,6 +332,7 @@ class Crc:
         brk = [-1, 0, 0, 0, 0, 0, 0, 0]
 
         #convert crc value into byte sequence
+        input = list(input)
         lenght = len(input)
         for i in range(0, lenght):
             try:
