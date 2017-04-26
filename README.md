@@ -7,9 +7,9 @@ Just instantiate the class, choose what CRC type you want and compute.
 
 Sample:
 
-    import pythonCRC
+    from pythonCRC import crc
     
-    crccalc = pythonCRC()
+    crccalc = crc()
     crccalc.setCRC8()  # Let's calculate the CRC8 of a value
     crccalc.data = "My Data"
     crccalc.compute()
