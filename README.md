@@ -7,7 +7,7 @@ Just instantiate the class, choose what CRC type you want and compute.
 
 Sample:
 
-    import crc
+    from pythonCRC import crc
     
     crccalc = crc()
     crccalc.setCRC8()  # Let's calculate the CRC8 of a value
@@ -15,7 +15,7 @@ Sample:
     crccalc.compute()
     print crccalc.result
     
-You can costumize the CRC calculation by setting manually the definitions like
+You can customize the CRC calculation by setting manually the definitions like
 Base Order, Polynom, Init Value, XOR Value, Reflection, and direct or non direct calculation.
 
 Hope you like :)
